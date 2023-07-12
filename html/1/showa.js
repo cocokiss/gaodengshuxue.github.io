@@ -1,0 +1,2 @@
+var n=12;
+function showa(x){for(var i=1;i<=n;i++){if(x==i){for(var j=1;j<=n;j++){if(i==j){document.getElementById("dv"+j).style.display="block";}else{document.getElementById("dv"+j).style.display="none";}}}}}

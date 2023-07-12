@@ -1,0 +1,1 @@
+function showji(y,x){for(var i=1;i<=arr[y-1].length;i++){if(x==i){for(var j=1;j<=arr[y-1].length;j++){if(i==j){document.getElementById("div"+y+"a"+j).style.display="block";}else{document.getElementById("div"+y+"a"+j).style.display="none";}}}}}

@@ -1,0 +1,3 @@
+function show2(y,x){
+document.getElementById("dv2").innerHTML='<div class="picture"><img ondragstart="return false" oncontextmenu="return false" style="pointer-events:none;width:100%;" src="img/'+y+'/'+x+'.png"><div id="example0"><br><br></div><img ondragstart="return false" oncontextmenu="return false" id="example" style="pointer-events:none;display:none;width:100%" src="img/'+y+'/'+x+'t.png"></div>';
+}

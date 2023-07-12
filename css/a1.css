@@ -1,0 +1,4 @@
+.a1:link {color: #EEEEEE;text-decoration:none;font-size:28px;padding:0;text-align:center} /* 未访问的链接 */
+.a1:visited {color: #EEEEEE;text-decoration:none;font-size:28px;padding:0;text-align:center} /* 已访问的链接 */
+.a1:hover {color: #FFFFFF;text-decoration:none;font-size:28px;padding:0;text-align:center;background-color:transparent;} /* 鼠标移动到链接上 */
+.a1:active {color: #FFCCCC;text-decoration:none} /* 选定的链接 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../../css/a.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/a1.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/hb.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/div.css"/>
+<script type="text/javascript" src="../../js/fun.js"></script>
+<script type="text/javascript" src="../../js/title.js"></script>
+<script type="text/javascript" src="mulu.js"></script>
+<script type="text/javascript" src="showa.js"></script>
+<script type="text/javascript" src="showji.js"></script>
+<script>document.title=txt;</script>
+</head>
+<body>
+<div style="cursor:pointer" id="header2" onclick="isHidden('nav1');"><a class="a1"><b>隐藏目录</b></a></div>
+<div id="header1"><a href="../../index.html" class="a1"><b>高等数学基础课</b></a class="a1"></div>
+<div id="nav1"><script>for(var i=1;i<=n0;i++){document.write('<a onclick="showa('+i+')"><div class="v1">'+arr0[i-1]+'</div></a><br>');}</script></div>
+<script>
+var str='';
+for(var j=1;j<=n0;j++){
+var strj='<div style="display:none" id="dv'+j+'"><div id="nav2">';
+for(var i=1;i<=arr[j-1].length;i++){
+var stri;
+stri='<a onclick="showji('+j+','+i+')"><div class="v2">'+arr[j-1][i-1]+'</div></a>';
+strj=strj+stri;
+}
+var strj=strj+'</div>';
+for(var i=1;i<=arr[j-1].length;i++){
+var stri;
+stri='<div style="position:relative" class="tupian" id="div'+j+'a'+i+'" onclick="isHidden(\'im'+j+'a'+i+'\')"><img src="../../img/1/'+j+'/'+i+'.png" /><img id ="im'+j+'a'+i+'" style="display:none" src="../../img/1/'+j+'/'+i+'t.png" /></div>';
+strj=strj+stri;
+}
+strj=strj+'</div>';
+str=str+strj;
+}
+</script>
+<script>document.write(str)</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+.a1:link {color: #EEEEEE;line-height:30px;text-decoration:none;font-size:20px;text-align:center}.a1:visited {color: #EEEEEE;line-height:30px;text-decoration:none;font-size:20px;text-align:center}
+
+@media screen and (min-width: 1200px) {.a1:link {color: #EEEEEE;line-height:50px;text-decoration:none;font-size:28px;text-align:center}.a1:visited {color: #EEEEEE;line-height:50px;text-decoration:none;font-size:28px;text-align:center}.a1:hover{color:#FFCCCC}}
+@media screen and (min-width: 700px) and (max-width: 1200px) {.a1:link {color: #EEEEEE;line-height:38px;text-decoration:none;font-size:24px;text-align:center}.a1:visited {color: #EEEEEE;line-height:38px;text-decoration:none;font-size:24px;text-align:center}}
+@media screen and (min-width: 100px) and (max-width: 700px) {.a1:link {color: #EEEEEE;line-height:30px;text-decoration:none;font-size:20px;text-align:center}.a1:visited {color: #EEEEEE;line-height:30px;text-decoration:none;font-size:20px;text-align:center}}

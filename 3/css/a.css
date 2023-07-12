@@ -1,0 +1,4 @@
+a:link {color: #0033CC;text-decoration:none;cursor:pointer;} /* 未访问的链接 */
+a:visited {color: #0033CC;text-decoration:none;cursor:pointer;} /* 已访问的链接 */
+a:hover {color: #FFFFFF; padding: 0px;background-color:#00AAEE;text-decoration:none;cursor:pointer;} /* 鼠标移动到链接上 */
+a:active {color: #FFCCCC;text-decoration:none;cursor:pointer;} /* 选定的链接 

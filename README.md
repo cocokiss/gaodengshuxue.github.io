@@ -1,2 +1,2 @@
 # gaodengshuxue.github.io
-高数
+https://cocokiss.github.io/gaodengshuxue.github.io
